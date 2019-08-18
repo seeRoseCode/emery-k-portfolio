@@ -1,3 +1,27 @@
+body{
+  background-image: url('images/Element-Designs-and-California-Closets-Transforming-Spaces-Together-min-1176x907@2x.jpg');
+  background-repeat: no-repeat;
+  background-size: 175vh 125vh;
+  background-size: cover;
+  background-position: right top;
+  background-color: #d9dadb;
+  /* overflow: scroll; */
+
+  /* opacity: 0.5; */
+}
+
+.ui.image{
+  height: auto;
+  width: 100vh;
+  opacity: 5;
+  border-radius: 25px;
+}
+
+.ui.container.background{
+  background-color: #d9dadb;
+  opacity: 0.5;
+}
+
 .App {
   text-align: center;
 }
@@ -30,4 +54,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.ui.menu{
+  background-color: #d9dadb !important;
+}
+
+.ui.sidebar {
+   width: 125px!important;
+   height: 100vh !important;
+   position: fixed !important;
 }
