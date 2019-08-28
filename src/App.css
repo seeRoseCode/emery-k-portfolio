@@ -65,3 +65,51 @@ body{
    height: 100vh !important;
    position: fixed !important;
 }
+
+.scrolling-wrapper {
+  overflow-x: scroll !important;
+  overflow-y: hidden !important;
+  white-space: nowrap !important;
+  animation: scroll 10s linear 1s infinite;
+  /* position: relative;
+  animation: slideshow 10s linear infinite; */
+}
+
+.indiv {
+  display: inline-block !important;
+  /* width: 350px !important;
+  height: 325px !important; */
+  overflow: none !important;
+  margin: 2px;
+  left: 0;
+  top: 0;
+  height: 325%;
+  width: 350%;
+
+}
+
+.image-card{
+  display: inline-block !important;
+  width: 350px !important;
+  height: 325px !important;
+  overflow: none !important;
+  margin: 2px;
+
+}
+
+/* .slideshow {
+  position: relative;
+  overflow: hidden;
+} */
+.images {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  animation: slideshow 30s linear infinite;
+}
+@keyframes slideshow {
+  0%    { left: 0; }
+  100%  { left: -200%; }
+}
