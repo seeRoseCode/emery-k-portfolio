@@ -11,7 +11,7 @@ class NavBar extends Component {
     const { activeItem } = this.state
 
     return(
-      <div>
+      <div className="sidebar">
           <Sidebar as={Menu} animation='overlay' icon='labeled' vertical left>
             <Menu.Item as={Link} to="/" name="Home" active={activeItem === 'Home'} onClick={this.handleItemClick}>
               <Icon name='home'/>

@@ -4,8 +4,8 @@ import { Card, Image } from 'semantic-ui-react'
 class ImageCard extends Component {
   render(){
     return(
-      <div className="indiv image-card mover">
-          <Image src={this.props.img} size="medium" className="image-card"/>
+      <div className="indiv">
+          <Image src={this.props.img} size="medium" className="image-card" fluid/>
       </div>
     )
   }
